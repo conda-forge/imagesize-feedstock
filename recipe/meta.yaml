@@ -12,7 +12,14 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 0
+  number: 1
+  noarch: python
+  # This package can be built on any platform.  The following lines are only
+  # needed as conda-smithy is not yet away of noarch: python packages. These
+  # lines will skip all but a single build. 
+  skip: True  # [win]
+  skip: True  # [osx]
+  skip: True  # [not py36]
   script: python setup.py install --single-version-externally-managed --record record.txt
 
 requirements:
