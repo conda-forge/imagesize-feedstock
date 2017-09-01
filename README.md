@@ -16,9 +16,7 @@ return image size.
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/imagesize-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/imagesize-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/imagesize-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/imagesize-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/imagesize-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/imagesize-feedstock/branch/master)
+All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/imagesize-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/imagesize-feedstock)
 
 Current release info
 ====================
