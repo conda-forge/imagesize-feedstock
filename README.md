@@ -16,14 +16,15 @@ return image size.
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/imagesize-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/imagesize-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/imagesize-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/imagesize-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/imagesize-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/imagesize-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/imagesize-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/imagesize-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/imagesize/badges/version.svg)](https://anaconda.org/conda-forge/imagesize)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/imagesize/badges/downloads.svg)](https://anaconda.org/conda-forge/imagesize)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-imagesize-green.svg)](https://anaconda.org/conda-forge/imagesize) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/imagesize.svg)](https://anaconda.org/conda-forge/imagesize) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/imagesize.svg)](https://anaconda.org/conda-forge/imagesize) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/imagesize.svg)](https://anaconda.org/conda-forge/imagesize) |
 
 Installing imagesize
 ====================
