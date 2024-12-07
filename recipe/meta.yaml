@@ -5,22 +5,24 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/i/imagesize/imagesize-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/i/imagesize/imagesize-{{ version }}.tar.gz
   sha256: 69150444affb9cb0d5cc5a92b3676f0b2fb7cd9ae39e947a5e11a36b4497cd4a
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
-    - python >=3.4
+    - python {{ python_min }}
     - pip
   run:
-    - python >=3.4
+    - python >={{ python_min }}
 
 test:
+  requires:
+    - python {{ python_min }}
   imports:
     - imagesize
 
